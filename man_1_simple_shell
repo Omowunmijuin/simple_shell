@@ -1,6 +1,6 @@
 .\" Manpage for simple_shell.
 
-.TH man 1 "16 Nov 2022" "0.1" "simple_shell man page"
+.TH man 1 "18 Feb 2023" "0.1" "simple_shell man page"
 
 .SH NAME
 .B simple_shell
