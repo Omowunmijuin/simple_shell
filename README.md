@@ -118,17 +118,4 @@ Files
 * string.c - handles the strings(the string length, finds strings in dictionary, writes strings, concatenate strings...).
 * special_character - identifies the special inputs, such as whether the first input is slash, the user typed exit or enveloped.
 * cmd.c -finds the command the user entered.
-* execute.c - executes the command.
-
-
-HOW to add Author file
-
-- Bash script for generating the list of authors in git repo
-
-#!/bin/sh
-
-git shortlog -se \
-  | per1 -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
-
+* execute.c - executes the commands..
